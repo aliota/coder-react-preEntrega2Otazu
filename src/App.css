@@ -1,0 +1,17 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body{ 
+  width: 100vw;
+}
+
+#root { 
+  display: flex;
+  flex-direction: column;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
