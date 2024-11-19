@@ -1,11 +1,22 @@
-.itemList {
+.itemListContainer {
     display: flex;
+    flex-direction: column;
     height: 1000px;
     width: 100vw;
     background-color: #eaf5bff5;
     color:#1a4621; 
     align-items: start; 
-    padding: 30px 10px;   
+    padding: 20px 20px !important;   
+}
+
+.itemListContainer h1{
+   font-size: 2em;
+   margin-bottom: 20px;
+}
+
+.list {
+    display: flex;
+    font-size: 1.5em;
 }
 
   

@@ -1,19 +1,21 @@
+import React from 'react'
+import { Link } from "react-router-dom"
 import "./menu.css"
 
 function Menu() {
   return (
     <nav className="menu w-100">   
         <ul className="w-100">
-            <li>
-                <a href="#">Menú salados</a>
+            <li >               
+                <Link to ={"/category/salados"}>Menú salados</Link>
             </li>
-            <li>
-                <a href="#">Postres</a>
+            <li>                
+                <Link to ={"/category/postres"}>Postres</Link>
             </li>
-            <li>
-                <a href="#">Vegetariano</a>
-            </li>
-        </ul>       
+            <li>                
+                <Link to ={"/category/vegetariano"}>Vegetariano</Link>
+            </li>  
+        </ul>        
     </nav>
   )
 }

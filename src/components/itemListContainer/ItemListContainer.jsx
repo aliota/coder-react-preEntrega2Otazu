@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import "./itemListContainer.css"
 
 function ItemListContainer({greeting}) {
+  const { idCategory } = useParams();
   return (
-    <>
-       <h1 className='itemList'>{greeting}</h1>
-    </>   
+    <div className="itemListContainer">
+       <h1>{greeting}</h1>         
+       <div className="list">Aqui van los productos con categoría: { idCategory }</div>       
+    </div>   
   )
 }
 
