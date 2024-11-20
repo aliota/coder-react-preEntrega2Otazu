@@ -7,7 +7,7 @@ function Menu() {
     <nav className="menu w-100">   
         <ul className="w-100">
             <li >               
-                <Link to ={"/category/salados"}>Menú salados</Link>
+                <Link to ={"/category/tartas"}>Tartas</Link>
             </li>
             <li>                
                 <Link to ={"/category/postres"}>Postres</Link>
