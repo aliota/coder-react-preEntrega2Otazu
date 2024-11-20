@@ -53,7 +53,7 @@ function ItemListContainer({greeting}) {
   return (
     <div className="itemListContainer">
        <h1>{greeting}</h1>      
-       <ItemList filtro = { idCategory } items = {items} /> 
+       <ItemList items = {items} /> 
     </div>   
   )
 }

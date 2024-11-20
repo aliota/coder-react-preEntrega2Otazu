@@ -1,14 +1,16 @@
 import React from 'react';
+import Item from "../item/Item";
 import "./itemList.css"
 
-function ItemList({filtro},{items}) {
+function ItemList({items}) {
   if (items==undefined){
-    items = 0;
+    items = [];
   }
-  return (
-    <div className="itemList">             
-        <div className="list">Aqui va la lista de productos: {filtro}</div>     
-        
+  return (    
+    <div className="itemList">    
+        {items.map((product) => {
+          return <Item key={product.id} product={product} />
+        })}    
     </div>   
   )
 }

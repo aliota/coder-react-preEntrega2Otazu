@@ -5,6 +5,7 @@ const products = [
         category:"tartas",
         ingredients: "puerro, cebolla y queso",
         price: 600,
+        image: "/tartaPuerro.webp"
     },
     {
         id:2,
@@ -12,6 +13,7 @@ const products = [
         category:"tartas",
         ingredients: "champiñones, cebolla y queso",
         price: 600,
+        image: "/tartaChampi.webp"
     },
     {
         id:3,
@@ -19,6 +21,7 @@ const products = [
         category:"tartas",
         ingredients: "brócoli y queso",
         price: 600,
+        image: "/tartaBrocoli.webp"
     },
     {
         id:4,
@@ -26,6 +29,7 @@ const products = [
         category:"postres",
         ingredients: "manzana",
         price: 700,
+        image: "/tartaManzana.webp"
     },
     {
         id:5,
@@ -33,6 +37,7 @@ const products = [
         category:"postres",
         ingredients: "limón",
         price: 1100,
+        image: "/lemonPie.webp"
     },
     {
         id:6,
@@ -40,6 +45,7 @@ const products = [
         category:"vegetariano",
         ingredients: "Garbanzo",
         price: 200,
+        image: "/hamburguesa.webp"
     },
     {
         id:7,
@@ -47,6 +53,7 @@ const products = [
         category:"vegetariano",
         ingredients: "Ricota y Nueces",
         price: 230,
+        image: "/sorrentinos.webp"
     },
 
 ];
