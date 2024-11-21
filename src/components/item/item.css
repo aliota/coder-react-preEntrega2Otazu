@@ -1,7 +1,11 @@
 .card {
+    display: flex;
+    font-size: 1em;
+    justify-content: center;
+    text-align: center;
     border-radius: 15px;
-    border-style: solid 5px;
-    border-color: antiquewhite;
-    width: 100px;
-    height: 100px;
+    border:  2px solid #1a4621 !important;   
+    background-color: #eaf5bff5 !important;   
+    width: 300px;    
+    height: 300px;    
 }

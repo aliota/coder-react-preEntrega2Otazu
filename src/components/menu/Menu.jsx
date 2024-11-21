@@ -13,7 +13,7 @@ function Menu() {
                 <Link to ={"/category/postres"}>Postres</Link>
             </li>
             <li>                
-                <Link to ={"/category/vegetariano"}>Vegetariano</Link>
+                <Link to ={"/category/vegetariano"}>Pre-hecho</Link>
             </li>  
         </ul>        
     </nav>
