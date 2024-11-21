@@ -52,11 +52,9 @@ function ItemDetailContainer () {
 
     return (
 
-        <div className='itemDetailContainer'>
-            <p>{idItem}</p>
-           
-            <p>{item.name} </p>
-            {/* <ItemDetail  item = {item} />  */}
+        <div className='itemDetailContainer'>   
+            <h1>{item.name}</h1>         
+            <ItemDetail  item = {item} />  
         </div>
         
     )
